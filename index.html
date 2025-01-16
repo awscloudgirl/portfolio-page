@@ -9,7 +9,7 @@
 
 <body>
     <!-- Header -->
-    <header>
+    <header class="sticky-header">
         <h1 class="title">Portfolio</h1>
         <!-- Navigation -->
         <nav>
@@ -36,26 +36,42 @@
             <h2>Projects</h2>
             <article>
                 <img src="terraform.png" alt="Terraform Project">
+                <h3><strong>Terraform Project</strong></h3>
                 <p>This project is an infrastructure-as-code (IaC) solution using Terraform to automate the provisioning, management, and deployment of cloud resources for a customizable content management system (CMS).</p>
             </article>
             <article>
                 <img src="cloudtopia.png" alt="Cloudtopia AWS/AI">
-                <p>Passport Photo Automation</p>
+                <h3><strong>AWS Rekognition Project</strong></h3>
+                <p>This project automates passport photo validation using AWS services like Rekognition for image analysis, S3 for storage, Lambda for processing, DynamoDB for results, and API Gateway for data retrieval, ensuring efficient, scalable, and reliable automation.</p>
             </article>
          </section>
 
          <section id="contact">
             <h2>Contact Me</h2>
             <p>Drop me a quick message or reach me direct on the details below.</p>
-            <form action="#" >
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email"><br>
-                <label for="Message">Message:</label>
-                <input type="text" id="message" name="messagge"><br>
-            </form>
-         </section>
+            <div class="form-container">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <br>
+                    <div>
+                        <a href="mailto:example@example.com">Email me: example@example.com</a><br>
+                        <br>
+                        <a href="tel:+1234567890">Ring me: +1234567890</a>
+                    </div>
+                </form>
+           </section>
 
     </main>
     <footer>

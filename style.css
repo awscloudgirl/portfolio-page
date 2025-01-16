@@ -1,5 +1,3 @@
-/* General Styles--------------------------- */
-
 * {
     margin: auto;
     padding: 0%;
@@ -19,12 +17,14 @@ main p {
     font-family: Poppins, ;
 }
 
-/* Header */
+
 header {
         background-color: black;
         color: white;
         padding: 20px 0;
         text-align: center;
+        position: sticky;
+        top: 0;
 }
 
 .title {
@@ -129,6 +129,11 @@ nav ul li a:hover {
     text-align: center;
 }
 
+#projects h3 {
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
 #projects article {
     font-size: 20px;
     display: inline-block;
@@ -144,29 +149,82 @@ article {
 }
 
 #contact {
-    text-align: center;
     margin: 20px auto;
-    padding-left: 60px;
-    display: inline;
+    padding-left: 100px;
+    display: centre;
 }
 
 #contact h2 {
     padding-top: 5px;
     font-size: 80px;
+    text-align: center;
 }
-
 
 #contact p {
     font-family: Poppins, Arial;
-    padding-top: 5px;
-    padding-bottom: 35px;
-    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 27px;
 }
 
-#contact form {
-    display: block;
-    padding-bottom: 40px;
 
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+a {
+    font-family: Poppins, Arial;
+    font-size: 20px;
 }
 
 footer p {
@@ -174,5 +232,5 @@ footer p {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
