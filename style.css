@@ -43,7 +43,6 @@ h1 {
 
 }
 
-/* Navigation */
 nav {
     text-align: center; 
     margin-top: 80 px;
@@ -108,11 +107,11 @@ nav ul li a:hover {
 #projects {
     padding-top: 30px;
     text-align: center;
-    margin: 20px auto;
-    padding-left: 60px;
+    margin: auto;
     background-color: black;
     color: white;
     padding-bottom: 30px;
+
 }
 
 #projects img {
@@ -150,7 +149,6 @@ article {
 
 #contact {
     margin: 20px auto;
-    padding-left: 100px;
     display: centre;
 }
 
@@ -233,4 +231,9 @@ footer p {
     color: white;
     text-align: center;
     font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
 }
