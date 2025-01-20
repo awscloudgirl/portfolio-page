@@ -232,8 +232,3 @@ footer p {
     text-align: center;
     font-size: 20px;
 }
-
-.container {
-    display: flex;
-    flex-flow: column wrap;
-}
