@@ -6,6 +6,7 @@ This is my personal portfolio page, initially created using **HTML** and **CSS**
 ### Live Demos
 - **GitHub Pages**: [View Portfolio on GitHub Pages](https://awscloudgirl.github.io/portfolio-page/)
 - **AWS S3**: [My Portfolio Site](http://awscg-portfolio.site/)
+- **AWS CloudFront**: [View Portfolio via CloudFront](https://dc7omfoccll6y.cloudfront.net)
 
 ## Features
 
@@ -25,13 +26,13 @@ This is my personal portfolio page, initially created using **HTML** and **CSS**
 
 ## AWS S3 Deployment
 
-The portfolio has been securely deployed to AWS S3, with the following security configurations:
-- **Bucket Policy**: Configured to allow public read access only to web-specific files (HTML, CSS, JS, images) and requires HTTPS for secure data transmission.
-- **Static Website Hosting**: S3 is used to host the site enabling reliable and scalable access to the portfolio.
+The portfolio has been securely deployed to AWS S3 and served via AWS CloudFront, with the following configurations:
 
-### Security Configurations
-- The S3 bucket is configured to deny all public access except for explicit publicly readable content defined in the bucket policy.
-- HTTPS is enforced to secure all data exchanges between users and the website.
+### Security and Configuration Details
+- **Bucket Policy**: Configured to allow public read access only to web-specific files (HTML, CSS and images) and requires HTTPS for secure data transmission.
+- **Static Website Hosting**: Utilizes S3 to host the site enabling reliable and scalable access to the portfolio.
+- **CloudFront Distribution**: Set up to enhance the delivery speed of the website globally, ensuring a faster user experience and reduced load times.
+- **HTTPS Enforced**: All traffic to the website is encrypted using SSL/TLS through CloudFront, enhancing security and trust.
 
 ## Sections
 
