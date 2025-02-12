@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Page</title>
+
+    <!-- BootStrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- BootStrap Javascript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- CSS Stylesheet-->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Header -->
     <header class="sticky-header">
-        <h1 class="title">Portfolio</h1>
+        <h1 class="title">My Portfolio</h1>
         <!-- Navigation -->
         <nav>
             <ul>
@@ -22,7 +30,7 @@
     </header>
 
     <main>
-        <p><strong>Bianca Dominguez</strong></p>
+        <p class="fs-2 fs-md-3 fs-sm-4"><strong>Bianca Dominguez</strong></p>
          <div id="about">
             <h2>About Me</h2>
             <img src="niqabi.jpg" alt="Me">
@@ -31,18 +39,23 @@
         </section>
         
          <!-- Projects Section -->
-         <section id="projects">
-            <h2>Projects</h2>
-            <article>
-                <img src="terraform.png" alt="Terraform Project">
-                <h3><strong>Terraform Project</strong></h3>
-                <p>This project is an infrastructure-as-code (IaC) solution using Terraform to automate the provisioning, management, and deployment of cloud resources for a customizable content management system (CMS).</p>
-            </article>
-            <article>
-                <img src="cloudtopia.png" alt="Cloudtopia AWS/AI">
-                <h3><strong>AWS Rekognition Project</strong></h3>
-                <p>This project automates passport photo validation using AWS services like Rekognition for image analysis, S3 for storage, Lambda for processing, DynamoDB for results, and API Gateway for data retrieval, ensuring efficient, scalable, and reliable automation.</p>
-            </article>
+         <section id="projects" class="container my-5">
+            <h2 class="text-center">Projects</h2>
+            
+            <div class="row">
+                <!-- Terraform Project -->
+                <article class="col-lg-6 col-md-12 text-center">
+                    <img src="terraform.png" alt="Terraform Project" class="img-fluid project-img">
+                    <h3 class="fs-3 fs-md-4 fs-sm-5"><strong>Terraform Project</strong></h3>
+                    <p class="fs-5 fs-md-6">This project is an infrastructure-as-code (IaC) solution using Terraform to automate the provisioning, management, and deployment of cloud resources for a customizable content management system (CMS).</p>
+                </article>
+
+                <!-- AWS Rekognition Project -->
+                <article class="col-lg-6 col-md-12 text-center">
+                    <img src="cloudtopia.png" alt="Cloudtopia AWS/AI" class="img-fluid project-img">
+                    <h3 class="fs-3 fs-md-4 fs-sm-5"><strong>AWS Rekognition Project</strong></h3>
+                    <p class="fs-5 fs-md-6">This project automates passport photo validation using AWS services like Rekognition for image analysis, S3 for storage, Lambda for processing, DynamoDB for results, and API Gateway for data retrieval, ensuring efficient, scalable, and reliable automation.</p>
+                </article>
          </section>
 
          <section id="contact">
@@ -65,9 +78,9 @@
                     <button type="submit">Submit</button>
                     <br>
                     <div>
-                        <a href="mailto:example@example.com">Email me: example@example.com</a><br>
+                        Email me: <a href="mailto:example@example.com">example@example.com</a><br>
                         <br>
-                        <a href="tel:+1234567890">Ring me: +1234567890</a>
+                        Ring me: <a href="tel:+1234567890">+1234567890</a>
                     </div>
                 </form>
            </section>
