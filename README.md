@@ -10,7 +10,7 @@ It showcases my **skills, projects, and contact information**, serving as a **pr
 ## **🔗 Live Demos**  
 🌟 Explore my portfolio on different platforms:  
 - 🔹 **GitHub Pages**: [View Portfolio on GitHub Pages](https://awscloudgirl.github.io/portfolio-page/)  
-- 🔹 **AWS S3**: [View Portfolio on AWS S3](http://awscg-portfolio.site/)  
+- 🔹 **AWS S3**: [View Portfolio on AWS S3]([http://awscg-portfolio.site](http://awscg-portfolio.site.s3-website.eu-west-2.amazonaws.com/)  
 - 🔹 **AWS CloudFront (Secure)**: [View Portfolio via CloudFront](https://dc7omfoccll6y.cloudfront.net)  
 
 ---
