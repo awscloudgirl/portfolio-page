@@ -5,6 +5,8 @@ This is my **personal portfolio website**, initially created using **HTML** and 
 
 It showcases my **skills, projects, and contact information**, serving as a **professional introduction** and a platform to display my **work and experience**. 💼🎯  
 
+[Detailed Setup Documentation](https://github.com/awscloudgirl/portfolio-page/blob/main/aws-deployment-guide.md)
+
 ---
 
 ## **🔗 Live Demos**  
