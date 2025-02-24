@@ -35,15 +35,20 @@ It showcases my **skills, projects, and contact information**, serving as a **pr
 
 ---
 
-☁️ AWS S3 Deployment
+## ☁️ AWS S3 Deployment
 The portfolio is securely deployed on AWS S3 and served via AWS CloudFront for performance and security. 🚀
 
-🔒 Security & Configuration Details
-🔹 Bucket Policy: Grants public read access only to HTML, CSS, and images while requiring HTTPS for security. 🔐
-🔹 Static Website Hosting: Utilizes S3 to serve files reliably and at scale. 📂
-🔹 CloudFront Distribution: Enhances global delivery speed for faster page loads. ⚡🌎
-🔹 Enforced HTTPS: All website traffic is encrypted using SSL/TLS via CloudFront. 🔐🔗
-🔹 Route 53: Integrated with AWS Route 53 to manage domain names and DNS settings, ensuring reliable routing and domain management. 🌐
+🔒 **Security & Configuration Details**
+
+🔹 **Bucket Policy:** Grants public read access only to HTML, CSS, and images while requiring HTTPS for security. 🔐
+
+🔹 **Static Website Hosting:** Utilizes S3 to serve files reliably and at scale. 📂
+
+🔹 **CloudFront Distribution:** Enhances global delivery speed for faster page loads. ⚡🌎
+
+🔹 **Enforced HTTPS:** All website traffic is encrypted using SSL/TLS via CloudFront. 🔐🔗
+
+🔹 **Route 53:** Integrated with AWS Route 53 to manage domain names and DNS settings, ensuring reliable routing and domain management. 🌐
 
 ---
 
